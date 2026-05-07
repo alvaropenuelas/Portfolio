@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+  <defs>
+    <radialGradient id="g5" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0c3d2c"/>
+      <stop offset="100%" stop-color="#060d12"/>
+    </radialGradient>
+  </defs>
+  <rect width="520" height="360" fill="url(#g5)"/>
+  <!-- Scan line effect -->
+  <rect x="0" y="135" width="520" height="1" fill="#5DCAA5" opacity="0.15"/>
+  <!-- Detection boxes -->
+  <!-- Box 1 - fish left -->
+  <rect x="65" y="120" width="140" height="90" rx="2" fill="none" stroke="#5DCAA5" stroke-width="1.5" opacity="0.8"/>
+  <rect x="65" y="120" width="80" height="16" rx="2" fill="#0d5a3e" opacity="0.9"/>
+  <text x="72" y="133" font-family="monospace" font-size="9" fill="#5DCAA5">Sparus aurata 0.94</text>
+  <!-- Box 2 - fish center -->
+  <rect x="195" y="90" width="160" height="110" rx="2" fill="none" stroke="#3db88d" stroke-width="1.5" opacity="0.8"/>
+  <rect x="195" y="90" width="92" height="16" rx="2" fill="#0d5a3e" opacity="0.9"/>
+  <text x="202" y="103" font-family="monospace" font-size="9" fill="#3db88d">Dicentrarchus 0.89</text>
+  <!-- Box 3 - fish right -->
+  <rect x="340" y="150" width="120" height="80" rx="2" fill="none" stroke="#1D9E75" stroke-width="1.5" opacity="0.6"/>
+  <rect x="340" y="150" width="75" height="16" rx="2" fill="#0a2a22" opacity="0.9"/>
+  <text x="347" y="163" font-family="monospace" font-size="9" fill="#1D9E75">Mullus 0.76</text>
+  <!-- Fish silhouettes inside boxes -->
+  <ellipse cx="135" cy="168" rx="45" ry="18" fill="#0F6E56" opacity="0.4"/>
+  <path d="M180 168 Q198 155 202 168 Q198 181 180 168Z" fill="#0F6E56" opacity="0.4"/>
+  <ellipse cx="275" cy="148" rx="55" ry="22" fill="#0F6E56" opacity="0.35"/>
+  <path d="M330 148 Q350 133 355 148 Q350 163 330 148Z" fill="#0F6E56" opacity="0.35"/>
+  <!-- Webcam indicator -->
+  <circle cx="480" cy="280" r="14" fill="none" stroke="#1D9E75" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="480" cy="280" r="7" fill="#0F6E56" opacity="0.8"/>
+  <circle cx="480" cy="280" r="3" fill="#5DCAA5" opacity="0.9"/>
+  <text x="448" y="310" font-family="monospace" font-size="9" fill="#1D9E75" opacity="0.6">LIVE</text>
+  <!-- FPS counter -->
+  <text x="30" y="300" font-family="monospace" font-size="10" fill="#5DCAA5" opacity="0.5">33 species · YOLOv8 · live</text>
+  <!-- Label -->
+  <text x="30" y="42" font-family="monospace" font-size="11" fill="#5DCAA5" opacity="0.7" letter-spacing="3">05 / REAL-TIME FISH ID</text>
+</svg>
