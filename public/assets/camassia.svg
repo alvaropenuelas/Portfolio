@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#031520"/>
+      <stop offset="50%" stop-color="#061e2a"/>
+      <stop offset="100%" stop-color="#082418"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#1D9E75" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1D9E75" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#glow)"/>
+  <!-- flowing current paths (sine-wave style) -->
+  <path d="M0,220 Q200,180 400,240 Q600,300 800,240 Q1000,180 1200,230" fill="none" stroke="#1D9E75" stroke-width="1.2" opacity="0.22"/>
+  <path d="M0,280 Q200,240 400,300 Q600,360 800,300 Q1000,240 1200,290" fill="none" stroke="#1D9E75" stroke-width="0.9" opacity="0.18"/>
+  <path d="M0,340 Q200,300 400,360 Q600,420 800,360 Q1000,300 1200,350" fill="none" stroke="#1D9E75" stroke-width="0.7" opacity="0.14"/>
+  <path d="M0,400 Q200,360 400,420 Q600,480 800,420 Q1000,360 1200,410" fill="none" stroke="#1D9E75" stroke-width="0.9" opacity="0.16"/>
+  <path d="M0,460 Q200,420 400,480 Q600,540 800,480 Q1000,420 1200,470" fill="none" stroke="#1D9E75" stroke-width="0.7" opacity="0.12"/>
+  <path d="M0,520 Q200,480 400,540 Q600,600 800,540 Q1000,480 1200,530" fill="none" stroke="#5DCAA5" stroke-width="0.5" opacity="0.10"/>
+  <!-- habitat suitability heatmap rectangles -->
+  <rect x="580" y="180" width="220" height="120" rx="4" fill="#1D9E75" opacity="0.06"/>
+  <rect x="620" y="200" width="140" height="80"  rx="4" fill="#1D9E75" opacity="0.08"/>
+  <rect x="650" y="215" width="80"  height="50"  rx="4" fill="#5DCAA5" opacity="0.10"/>
+  <!-- occurrence points along current path -->
+  <circle cx="180" cy="265" r="2.5" fill="#5DCAA5" opacity="0.55"/>
+  <circle cx="340" cy="295" r="3"   fill="#5DCAA5" opacity="0.6"/>
+  <circle cx="500" cy="330" r="2"   fill="#5DCAA5" opacity="0.45"/>
+  <circle cx="660" cy="285" r="3.5" fill="#5DCAA5" opacity="0.65"/>
+  <circle cx="820" cy="310" r="2.5" fill="#5DCAA5" opacity="0.5"/>
+  <circle cx="980" cy="270" r="2"   fill="#5DCAA5" opacity="0.4"/>
+  <circle cx="420" cy="400" r="2"   fill="#5DCAA5" opacity="0.4"/>
+  <circle cx="750" cy="420" r="2.5" fill="#5DCAA5" opacity="0.45"/>
+  <!-- bathymetry depth contours -->
+  <ellipse cx="600" cy="400" rx="500" ry="220" fill="none" stroke="#0F6E56" stroke-width="0.4" opacity="0.15"/>
+  <ellipse cx="600" cy="400" rx="380" ry="160" fill="none" stroke="#0F6E56" stroke-width="0.4" opacity="0.12"/>
+</svg>

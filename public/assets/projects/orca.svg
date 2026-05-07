@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0c3d2c"/>
+      <stop offset="100%" stop-color="#060d12"/>
+    </radialGradient>
+  </defs>
+  <rect width="520" height="360" fill="url(#g1)"/>
+  <!-- Grid lines -->
+  <g stroke="#1D9E75" stroke-width="0.5" opacity="0.15">
+    <line x1="0" y1="60" x2="520" y2="60"/><line x1="0" y1="120" x2="520" y2="120"/>
+    <line x1="0" y1="180" x2="520" y2="180"/><line x1="0" y1="240" x2="520" y2="240"/>
+    <line x1="0" y1="300" x2="520" y2="300"/>
+    <line x1="65" y1="0" x2="65" y2="360"/><line x1="130" y1="0" x2="130" y2="360"/>
+    <line x1="195" y1="0" x2="195" y2="360"/><line x1="260" y1="0" x2="260" y2="360"/>
+    <line x1="325" y1="0" x2="325" y2="360"/><line x1="390" y1="0" x2="390" y2="360"/>
+    <line x1="455" y1="0" x2="455" y2="360"/>
+  </g>
+  <!-- Wave paths -->
+  <path d="M0 220 Q65 190 130 220 Q195 250 260 220 Q325 190 390 220 Q455 250 520 220" fill="none" stroke="#5DCAA5" stroke-width="1.5" opacity="0.5"/>
+  <path d="M0 240 Q65 210 130 240 Q195 270 260 240 Q325 210 390 240 Q455 270 520 240" fill="none" stroke="#5DCAA5" stroke-width="1" opacity="0.3"/>
+  <path d="M0 260 Q65 230 130 260 Q195 290 260 260 Q325 230 390 260 Q455 290 520 260" fill="none" stroke="#5DCAA5" stroke-width="0.8" opacity="0.2"/>
+  <!-- Orca silhouette simplified -->
+  <ellipse cx="260" cy="165" rx="90" ry="38" fill="#0d5a3e" opacity="0.7"/>
+  <path d="M350 165 Q380 145 395 155 Q380 175 350 165Z" fill="#0d5a3e" opacity="0.7"/>
+  <path d="M220 133 L240 100 L255 133Z" fill="#0d5a3e" opacity="0.7"/>
+  <ellipse cx="235" cy="157" rx="6" ry="6" fill="#5DCAA5" opacity="0.9"/>
+  <!-- Label -->
+  <text x="30" y="42" font-family="monospace" font-size="11" fill="#5DCAA5" opacity="0.7" letter-spacing="3">01 / ORCA GLOBAL DISTRIBUTION</text>
+</svg>
